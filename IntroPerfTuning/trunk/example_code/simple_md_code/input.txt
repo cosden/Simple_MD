@@ -1,0 +1,17 @@
+num_t_steps  50    //change this to run longer
+num_unit_cells 6  //change this to increase # of atoms (i.e. array sizes)
+
+runname small_test_run  //change this to modify output file names
+
+rho 0.8
+dt 0.002
+
+write_press_freq 25
+write_freq  25
+
+thermostat none
+initial_temp 0.8
+final_temp 1.2
+
+
+End
